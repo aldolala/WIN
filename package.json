@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
-    "start": "webpack-dev-server --mode development --open",
+    "start": "cd dist/web/ ; npx static-here",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -25,5 +25,8 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "zip-webpack-plugin": "^3.0.0"
+  },
+  "dependencies": {
+    "static-here": "^1.0.0"
   }
 }
